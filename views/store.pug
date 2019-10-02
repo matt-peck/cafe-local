@@ -5,11 +5,12 @@ include mixins/_review
 
 block content
   .inner
+    h2= title
     .single
       .single__hero
         img.single__image(src=`/uploads/${store.photo || 'store.png'}`)
-        h2.title.title--single
-          a(href=`/store/${store.slug}`) #{store.name}
+        //- h2.title.title--single
+        //-   a(href=`/store/${store.slug}`) #{store.name}
 
       .single__details.inner
         //- google api not working without credit card
