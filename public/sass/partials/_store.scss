@@ -70,6 +70,8 @@
   padding-top: 20px;
   padding-bottom: 15px;
   text-align: right;
+  box-shadow: $light-shad;
+
   &:before {
     // display: block;
     display: none;
