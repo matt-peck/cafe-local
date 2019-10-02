@@ -3,21 +3,28 @@ html {
 }
 
 body {
-  background: $purple;
-  background:#efefef;
-  &:before {
-    content: '';
-    display: block;
-    background: $grad;
-    height: 10px;
-    width: 100%;
-  }
+  background: #F0F0F0;
+  // background: $purple;
+  // background:#efefef;
+  // &:before {
+  //   content: '';
+  //   display: block;
+  //   background: $grad;
+  //   height: 10px;
+  //   width: 100%;
+  // }
 }
 
 .inner {
-  max-width:900px;
+  max-width: 1364px;
   margin: 0 auto;
-  @media all and (max-width: 900px) {
+  padding: 0px 50px;
+
+  h2 {
+    // margin-left: 50px;
+  }
+
+  @media all and (max-width: 1364px) {
     padding: 2rem;
   }
 }
