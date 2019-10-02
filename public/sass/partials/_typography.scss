@@ -38,7 +38,10 @@ p {
   font-size: 1.6rem;
 }
 
-h2.title { margin: 0;}
+h2.title {
+  margin: 0;
+}
+
 .title {
   // word-wrap: break-word;
   position: relative;
@@ -71,6 +74,14 @@ h2.title { margin: 0;}
     font-size: 2.4rem;
     // $yellowa: rgba($yellow,0.8);
     // background-image: linear-gradient(to right, $yellowa 100%, $yellowa 50%);
+  }
+  @media all and (max-width: 400px) {
+    left: 0px;
+    text-align: center;
+
+    a {
+      font-size: 2rem;
+    }
   }
 }
 

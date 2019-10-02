@@ -1,7 +1,7 @@
 .stores {
   display:flex;
   flex-wrap:wrap;
-  margin: -1.25em 0 0 -1.25em;
+  // margin: -1.25em 0 0 -1.25em;
   justify-content: space-around;
 }
 
@@ -9,7 +9,7 @@
   width: 265px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 60px;
+  margin-right: 85px;
   // background:white;
   // margin: 1.25em 0 0 1.25em;
   // width: calc(33.3333% - 1.25em);
@@ -25,10 +25,13 @@
     }
   }
   @media all and (max-width: 850px) {
-    width: calc(50% - 1.25em);
+    // width: calc(50% - 1.25em);
   }
-  @media all and (max-width: 550px) {
-    width: 100%;
+  @media all and (max-width: 700px) {
+    margin-right: 80px;
+  }
+  @media all and (max-width: 400px) {
+    margin-right: 0px;
   }
 }
 

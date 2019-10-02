@@ -4,15 +4,16 @@
   border-radius: 15px;
   margin: 0px 15px;
   margin-top: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 footer {
   background-color: #DF8D60;
   height: 125px;
+  width: calc(100vw - 30px);
   border-radius: 15px;
   margin: 0px 15px;
-  margin-top: 100px;
+  // margin-top: 100px;
   margin-bottom: 15px;
   color: #FFFFFF;
 
@@ -103,6 +104,8 @@ footer {
 
 @media all and (max-width: 1200px) {
   .nav {
+    padding: 0px 20px;
+
     &__link {
       padding-left: 1rem;
       padding-right: 1rem;
@@ -120,7 +123,8 @@ footer {
 
 @media all and (max-width: 900px) {
   .nav {
-    flex-wrap:wrap;
+    // flex-wrap: wrap;
+
     &__section {
       order: 1;
       &--search {
@@ -133,26 +137,43 @@ footer {
 }
 
 @media all and (max-width: 650px) {
+  footer {
+    height: auto;
+
+    .inner {
+      flex-wrap: wrap;
+
+      section {
+        margin: 10px;
+      }
+    }
+  }
+
   .nav {
+    padding: 0px 10px;
+
     &__section {
       width: 100%;
       &--user {
-        order: -1;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        // order: -1;
+        // border-bottom: 1px solid rgba(255,255,255,0.1);
         .avatar {
           min-width: 20px;
           height: 20px;
         }
+        span {}
         svg {
-          display: none;
+          // display: none;
         }
       }
     }
     &__item {
-      width: 33.333333%;
+      // width: 33.333333%;
     }
     &__link {
       width: 100%;
+      font-size: 1rem;
+
       svg {
         // width: 5px;
         max-width: 100%;
