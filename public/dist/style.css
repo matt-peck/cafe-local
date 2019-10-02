@@ -765,7 +765,7 @@ footer {
       margin-bottom: 0; }
   @media all and (max-width: 650px) {
     .store {
-      margin-right: 65px; } }
+      margin-right: 0px; } }
   @media all and (max-width: 400px) {
     .store {
       margin-right: 0px; } }
