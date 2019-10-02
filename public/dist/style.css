@@ -484,10 +484,7 @@ h2.title {
   .title a {
     border-bottom: 0;
     font-size: 2.4rem; }
-  @media all and (max-width: 450px) {
-    .title {
-      left: 60px; } }
-  @media all and (max-width: 400px) {
+  @media all and (max-width: 650px) {
     .title {
       left: 0px;
       text-align: center; }
@@ -617,6 +614,7 @@ footer {
   width: calc(100vw - 30px);
   border-radius: 15px;
   margin: 0px 15px;
+  margin-top: 25px;
   margin-bottom: 15px;
   color: #FFFFFF; }
   footer .inner {
@@ -765,7 +763,7 @@ footer {
     .store__details p {
       line-height: 1.2;
       margin-bottom: 0; }
-  @media all and (max-width: 450px) {
+  @media all and (max-width: 650px) {
     .store {
       margin-right: 65px; } }
   @media all and (max-width: 400px) {

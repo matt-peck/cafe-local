@@ -75,10 +75,7 @@ h2.title {
     // $yellowa: rgba($yellow,0.8);
     // background-image: linear-gradient(to right, $yellowa 100%, $yellowa 50%);
   }
-  @media all and (max-width: 450px) {
-    left: 60px;
-  }
-  @media all and (max-width: 400px) {
+  @media all and (max-width: 650px) {
     left: 0px;
     text-align: center;
 
