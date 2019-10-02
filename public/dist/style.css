@@ -484,6 +484,9 @@ h2.title {
   .title a {
     border-bottom: 0;
     font-size: 2.4rem; }
+  @media all and (max-width: 450px) {
+    .title {
+      left: 60px; } }
   @media all and (max-width: 400px) {
     .title {
       left: 0px;
@@ -762,9 +765,9 @@ footer {
     .store__details p {
       line-height: 1.2;
       margin-bottom: 0; }
-  @media all and (max-width: 700px) {
+  @media all and (max-width: 450px) {
     .store {
-      margin-right: 80px; } }
+      margin-right: 65px; } }
   @media all and (max-width: 400px) {
     .store {
       margin-right: 0px; } }
